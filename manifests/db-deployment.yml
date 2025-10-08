@@ -15,11 +15,11 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: shaikmustafa/devopsapp:dbimage
+          image: vineeth1922/appimage:dbimage
           ports:
             - containerPort: 3306
       imagePullSecrets:
-        - name: flm
+        - name: vinny
 
 
 
