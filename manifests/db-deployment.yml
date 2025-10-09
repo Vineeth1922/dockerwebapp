@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: vineeth1922/appimage:dbimage
+          image: vineeth1922/myapp:dbimage
           ports:
             - containerPort: 3306
       imagePullSecrets:
