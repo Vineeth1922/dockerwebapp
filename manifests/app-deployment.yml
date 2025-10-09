@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: cont-1
-          image: vineeth1922/appimage:appimage
+          image: vineeth1922/myapp:appimage
           ports:
             - containerPort: 8080
       imagePullSecrets:
